@@ -1,111 +1,111 @@
-html {
-    font-family: 'Titillium Web', sans-serif;
-}
+    html {
+        font-family: 'Titillium Web', sans-serif;
+    }
 
-#todo-wrap {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(102, 108, 112);
-    padding: 20px;
-    margin: 0 auto;
-    overflow: auto;
-    max-width: 600px;
-    border-radius: 5px;
-}
-
-
-#todo-wrap input {
-    box-sizing: border-box;
-    font-size: 0.9em;
-}
-
-#todo-wrap input[type=text] {
-    padding: 10px 8px;
-    background-color: rgb(227, 228, 220);
-    margin-right: 5px;
-    border-radius: 5px;
-}
-
-#todo-wrap input[type=button],
-#todo-wrap input[type=submit] {
-    padding: 8px 5px;
-    color: #fff;
-    background: rgba(233, 79, 55, 1);
-    border: 2px solid rgba(233, 79, 55, 1);
-    cursor: pointer;
-    border-radius: 5px;
-    margin-right: 5px;
-}
-
-#todo-wrap h1 {
-    font-size: 1.5em;
-    margin: 0;
-    color: #333;
-}
+    #todo-wrap {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(102, 108, 112);
+        padding: 20px;
+        margin: 0 auto;
+        overflow: auto;
+        max-width: 600px;
+        border-radius: 5px;
+    }
 
 
-#todo-form {
-    margin: 10px 0;
-    display: flex;
-    flex-direction: row;
-}
+    #todo-wrap input {
+        box-sizing: border-box;
+        font-size: 0.9em;
+    }
 
-#todo-form input[type=text] {
-    width: 85%;
-}
+    #todo-wrap input[type=text] {
+        padding: 10px 8px;
+        background-color: rgb(227, 228, 220);
+        margin-right: 5px;
+        border-radius: 5px;
+    }
 
-#todo-form input[type=submit] {
-    width: 15%;
-    background: rgba(56, 122, 175, 1);
-    border: 2px solid rgba(56, 122, 175, 1);
-}
+    #todo-wrap input[type=button],
+    #todo-wrap input[type=submit] {
+        padding: 8px 5px;
+        color: #fff;
+        background: rgba(233, 79, 55, 1);
+        border: 2px solid rgba(233, 79, 55, 1);
+        cursor: pointer;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
 
-#todo-delete {
-    margin: 5 px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    #todo-wrap h1 {
+        font-size: 1.5em;
+        margin: 0;
+        color: #333;
+    }
+
+
+    #todo-form {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #todo-form input[type=text] {
+        width: 85%;
+    }
+
+    #todo-form input[type=submit] {
+        width: 15%;
+        background: rgba(56, 122, 175, 1);
+        border: 2px solid rgba(56, 122, 175, 1);
+    }
+
+    #todo-delete {
+        margin: 5 px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
 
-#todo-list .div,
-#todo-list .input {
-    box-sizing: border-box;
-    float: left;
-    display: block;
-}
+    #todo-list .div,
+    #todo-list .input {
+        box-sizing: border-box;
+        float: left;
+        display: block;
+    }
 
-#todo-list .item {
-    border: 1px solid rgb(227, 228, 220);
-    background: rgb(227, 228, 220);
-    width: 80%;
-    padding: 10px;
-    border-radius: 5px;
-    margin-right: 5px;
-}
+    #todo-list .item {
+        border: 1px solid rgb(227, 228, 220);
+        background: rgb(227, 228, 220);
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
 
-#todo-list .item.line-through {
-    background: #FFE1D7;
-    text-decoration: line-through;
-}
+    #todo-list .item.line-through {
+        background: rgb(226, 147, 135);
+        text-decoration: line-through;
+    }
 
-#todo-list .item.done {
-    background: #DCFFD7;
-}
+    #todo-list .item.done {
+        background: rgb(127, 206, 190);
+    }
 
-#todo-list input {
-    width: 10%;
-}
+    #todo-list input {
+        width: 10%;
+    }
 
-#todo-list input.button-done {
-    background: rgba(74, 206, 180, 1);
-    border: 2px solid rgba(74, 206, 180, 1);
-}
+    #todo-list input.button-done {
+        background: rgba(74, 206, 180, 1);
+        border: 2px solid rgba(74, 206, 180, 1);
+    }
 
-.todo-item {
-    margin: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+    .todo-item {
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
