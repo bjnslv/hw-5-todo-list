@@ -1,7 +1,7 @@
 var todo = {
   data: [],
   load: function() {
-    if (localStorage.list === undefined) {
+    if (!localStorage.list) {
       localStorage.list = "[]";
     }
     todo.data = JSON.parse(localStorage.list);
